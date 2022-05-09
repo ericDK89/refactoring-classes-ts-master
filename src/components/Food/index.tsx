@@ -46,7 +46,7 @@ export function Food({ food, handleEditFood, handleDelete }: FoodProps) {
         <p>{food.description}</p>
         <p className="price">
           <b>
-            {food.price}
+            R$ {food.price}
           </b>
         </p>
       </section>
